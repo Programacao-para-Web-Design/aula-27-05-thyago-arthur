@@ -1,57 +1,94 @@
-<!DOCTYPE html>
-<html lang="pt br">
-	<head>
-		<style>
-			.nome{
-				font-weight: bold;	
-				font-size: 17px;
-				text-align: center;
-			}
-			#devj{
-				font-style: italic;
-				font-size: 25px;
-				text-align: center;
-			}
+header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16pt;
+    font-family:  Gill Sans, sans-serif;
+}
 
-			#nomees{
-				font-size: 17px;
-				text-align: center;
-			}
-			#Body{
-				background-color: blue; 
-			}
-			#Header{
-				background-color: red; 
-			}
-			#logo{
-				background-color: white;
-			#Nav{
-				background-color: yellow;
-				box-shadow: 7px 7px 9px 0px black;
-			}
-			#man{
-				background-color: green; 
-			}
-			#ass{
-				background-color: pink; 
-			}
-			#sex{
-				background-color: purple; 
-			}
-			#art{
-				background-color: orange; 
-			}
-			#art2{
-				background-color: brown; 
-			}
-			#ass2{
-				background-color: gray; 
-			}
-			#fot{
-				background-color: maroon; 
-			}
-		</style>
-	</head>
-	<body>
-	</body>
-</html>
+img {
+    margin-right: 100px;
+    width: 190px;
+    height: 150px;    
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav {
+    color: #ffffff;
+    background-color: #9381ff;
+    text-decoration: none;
+    font-size: 16pt;
+    font-family:  Gill Sans, sans-serif;
+    padding: 20px;
+    position: static;
+    border-radius: 20px;
+}
+
+main{
+    display: flex;
+    height: 60vh;
+}
+
+#page {
+    background-color: #ef476f;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    height: 95%;
+    width: 73%;
+    display: block;
+}
+
+#pepe{
+    background-color: #0fa3b1;
+    padding: 20px;
+    border-radius: 20px;
+    width: 20%;
+    height: 50%;
+    margin-left: 77%;
+}
+
+#pipi {
+    background-color:#00a6fb;
+    width: 92%;
+    height: 24%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#popo {
+    border-radius: 20px;
+    background-color: #7209b7;
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+    height: 95%;
+    width: 20%;
+}
+
+#divisao {
+    background-color: #22577a;
+    width: 92%;
+    height: 38%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background: #fee440;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    width: 98%;
+}
+
+footer p {
+    font-size: 16pt;
+    font-family: 'Comic Sans MS', sans-serif;
+}
