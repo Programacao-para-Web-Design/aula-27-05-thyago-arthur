@@ -20,7 +20,7 @@ li{
 
 nav {
     color: #ffffff;
-    background-color: #9381ff;
+    background-color: #8B0000;
     text-decoration: none;
     font-size: 16pt;
     font-family:  Gill Sans, sans-serif;
@@ -35,7 +35,7 @@ main{
 }
 
 #page {
-    background-color: #ef476f;
+    background-color: #FF00FF;
     padding: 20px;
     border-radius: 20px;
     margin: 20px;
@@ -45,7 +45,7 @@ main{
 }
 
 #pepe{
-    background-color: #0fa3b1;
+    background-color: #0000CD;
     padding: 20px;
     border-radius: 20px;
     width: 20%;
@@ -64,7 +64,7 @@ main{
 
 #popo {
     border-radius: 20px;
-    background-color: #7209b7;
+    background-color: #00FF7F;
     padding: 20px;
     margin: 20px 0px 0px 0px;
     height: 95%;
@@ -72,7 +72,7 @@ main{
 }
 
 #divisao {
-    background-color: #22577a;
+    background-color: #00FFFF;
     width: 92%;
     height: 38%;
     padding: 20px;
